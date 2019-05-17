@@ -30,12 +30,14 @@ public class MainPageOpenCart {
 
     public void openRegistration()
     {
+        driver.get(BASE_URL);
         accountLink.click();
         registerLink.click();
     }
 
     public  void openLogin()
     {
+        driver.get(BASE_URL);
         accountLink.click();
         loginLink.click();
     }

@@ -5,7 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class RegisterPageOpenCart {
-    private static final String BASE_URL = "https://demo.opencart.com/";
     private WebDriver driver;
 
     @FindBy(name = "firstname")
@@ -32,8 +31,6 @@ public class RegisterPageOpenCart {
     @FindBy(xpath = "/html/body/div[2]/div/div/form/div/div/input[2]")
     private WebElement continueButton;
 
-    @FindBy(xpath = "/html/body/div[2]/div/div/div/div[2]/div/form/input")
-    private WebElement loginButton;
 
     public RegisterPageOpenCart(WebDriver driver)
     {
@@ -84,8 +81,6 @@ public class RegisterPageOpenCart {
 
     public void ClickOnRegisterButton(){continueButton.click();}
 
-    public void ClickOnLogin(){loginButton.click();}
-
     public  void ClickOnPrivacyPolicyAgree(){agreePrivacyPolicyLink.click();}
 
     public void RegisterAs(String firstname, String surname, String email, String telephone, String password, String confirmPassword)
@@ -98,12 +93,5 @@ public class RegisterPageOpenCart {
         enterConfirmPassword(confirmPassword);
         ClickOnPrivacyPolicyAgree();
         ClickOnRegisterButton();
-    }
-
-    public void LoginAs(String email, String password)
-    {
-        enterEmail(email);
-        enterPassword(password);
-        ClickOnLogin();
     }
 }
