@@ -14,7 +14,7 @@ import pages.kushnirolesya.RegisterPageOpenCart;
 public class TestOpenCart {
     String driverPath = "C:\\Users\\Home\\Downloads\\chromedriver_win32\\chromedriver.exe";
     public WebDriver driver;
-    public String email = "Zooo@gmail.com";
+    public String email = "Zzooo@gmail.com";
 
     @BeforeTest
     public void launchBrowser()
