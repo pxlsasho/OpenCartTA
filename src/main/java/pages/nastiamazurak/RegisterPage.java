@@ -33,6 +33,12 @@ public class RegisterPage {
     @FindBy(xpath = "/html/body/div[2]/div/div/form/div/div/input[2]")
     private WebElement ContinueButton;
 
+    @FindBy(xpath = "//html/body/nav/div/div[2]/ul/li[2]/a/span[1]")
+    private WebElement myAccountLink;
+
+    @FindBy(xpath = "/html/body/nav/div/div[2]/ul/li[2]/ul/li[5]/a")
+    private WebElement logoutlink;
+
 
 
 
@@ -84,6 +90,11 @@ public class RegisterPage {
 
     public void pressContinue(){
         ContinueButton.click();
+    }
+
+    public void logOut() {
+        this.myAccountLink.click();
+        this.logoutlink.click();
     }
 
 

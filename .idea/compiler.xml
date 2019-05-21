@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="OpenCartTAF" />
         <module name="MavenTest" />
+        <module name="JAVA" />
         <module name="OpenCartTA" />
       </profile>
     </annotationProcessing>
