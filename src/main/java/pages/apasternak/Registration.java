@@ -35,6 +35,9 @@ public class Registration {
     @FindBy(name = "newsletter")
     public WebElement SubscribeButton;
 
+    @FindBy(linkText = "Logout")
+    public WebElement Logout;
+
     public Registration(WebDriver driver) {
         this.driver = driver;
     }
@@ -97,6 +100,10 @@ public class Registration {
 
     public void clickContinue() {
         ContinueButton.click();
+    }
+
+    public void clickOnLogout() {
+        Logout.click();
     }
 
 }
