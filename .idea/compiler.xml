@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="JAVA" />
-        <module name="MavenTest" />
-        <module name="OpenCartTA" />
-        <module name="OpenCartTA1" />
         <module name="OpenCartTAF" />
+        <module name="OpenCartTA1" />
+        <module name="MavenTest" />
+        <module name="JAVA" />
+        <module name="OpenCartTA" />
       </profile>
     </annotationProcessing>
   </component>

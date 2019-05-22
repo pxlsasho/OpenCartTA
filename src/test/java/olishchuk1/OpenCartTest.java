@@ -19,8 +19,11 @@ public class OpenCartTest
     @BeforeTest
     public void setBrowser()
     {
-        System.setProperty("webdriver.chrome.driver",
-                "E:\\ChromeDriver\\chromedriver_win32\\chromedriver.exe");
+
+
+        System.setProperty("webdriver.chrome.driver" ,  "/Users/osynyava/chromedriver/chromedriver");
+        //System.setProperty("webdriver.chrome.driver",
+         //       "E:\\ChromeDriver\\chromedriver_win32\\chromedriver.exe");
         driver = new ChromeDriver();
     }
 

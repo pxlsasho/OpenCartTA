@@ -14,7 +14,10 @@ public class OpenCartTest {
 
     @Test
     public void FirstTest() {
-        System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
+
+        //System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver" ,  "/Users/osynyava/chromedriver/chromedriver");
+
         WebDriver driver = new ChromeDriver();
 
         driver.manage().window().maximize();
