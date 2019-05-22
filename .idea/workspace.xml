@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bba7e99-b6ef-4c70-9b77-562b99a750a9" name="Default Changelist" comment="created new page objects">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/orysiabenko/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/orysiabenko/OpenCartRegistration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nastiamazurak/OpenCartTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/nastiamazurak/OpenCartTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,7 +21,50 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/test-classes/orysiabenko/RegistationCart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/orysiabenko/OpenCartRegistration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#confirmPassword#0;class#OpenCartRegistration#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/orysiabenko/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/test-classes/olishchuk1/OpenCartTest.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,6 +100,10 @@
         <option value="$PROJECT_DIR$/src/main/java/pages/ovoroniak/OpenCartCartPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/ovoroniak/OpenCartRegisterPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ovoroniak/OpenCartTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/orysiabenko/OpenCartRegistration.java" />
+        <option value="$PROJECT_DIR$/src/test/java/orysiabenko/Main.java" />
+        <option value="$PROJECT_DIR$/target/test-classes/orysiabenko/RegistationCart.java" />
+        <option value="$PROJECT_DIR$/src/test/java/orysiabenko/RegistationCart.java" />
       </list>
     </option>
   </component>
@@ -84,62 +136,112 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="OpenCartTA1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCartTA1" type="462c0819:PsiDirectoryNode" />
+              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OpenCartTA1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCartTA1" type="462c0819:PsiDirectoryNode" />
+              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OpenCartTA1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCartTA1" type="462c0819:PsiDirectoryNode" />
+              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OpenCartTA1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCartTA1" type="462c0819:PsiDirectoryNode" />
+              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OpenCartTA1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCartTA1" type="462c0819:PsiDirectoryNode" />
+              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OpenCartTA1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCartTA1" type="462c0819:PsiDirectoryNode" />
+              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="orysiabenko" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OpenCartTA1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCartTA1" type="462c0819:PsiDirectoryNode" />
+              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="osynyava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yuriikhilchenko" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="yuriikhilchenko" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558537281807" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -147,6 +249,9 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\base\OpenCartTA\src\test\java" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ovoroniak" />
       <recent name="pages.ovoroniak" />
@@ -168,7 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.OpenCartTest.loginTest">
+  <component name="RunManager" selected="TestNG.RegistationCart.FirstTest">
     <configuration name="OpenCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OpenCartTA" />
       <extension name="coverage">
@@ -180,32 +285,6 @@
       <option name="PACKAGE_NAME" value="olishchuk1" />
       <option name="MAIN_CLASS_NAME" value="olishchuk1.OpenCartTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OpenCartTest.openCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OpenCartTA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="olishchuk1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="olishchuk1" />
-      <option name="MAIN_CLASS_NAME" value="olishchuk1.OpenCartTest" />
-      <option name="METHOD_NAME" value="openCartTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RozetkaTest.testRozetka" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OpenCartTA" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RozetkaTest" />
-      <option name="METHOD_NAME" value="testRozetka" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -246,13 +325,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegistationCart.FirstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="orysiabenko.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="orysiabenko" />
+      <option name="MAIN_CLASS_NAME" value="orysiabenko.RegistationCart" />
+      <option name="METHOD_NAME" value="FirstTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.orysiabenko.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="orysiabenko.TestDemo" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RegistationCart.FirstTest" />
+        <item itemvalue="TestNG.TestDemo" />
         <item itemvalue="TestNG.OpenCartTest.loginTest" />
         <item itemvalue="TestNG.OpenCartTest.openCartTest" />
         <item itemvalue="JUnit.OpenCartTest" />
-        <item itemvalue="JUnit.RozetkaTest.testRozetka" />
-        <item itemvalue="JUnit.OpenCartTest.openCartTest" />
       </list>
     </recent_temporary>
   </component>
@@ -285,15 +397,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestOpenCart_RegisterOpenCart - 2019.05.17 at 17h 39m 21s.xml">
-      <configuration name="TestOpenCart.RegisterOpenCart" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestOpenCart - 2019.05.17 at 17h 40m 51s.xml">
-      <configuration name="TestOpenCart" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestOpenCart - 2019.05.17 at 17h 42m 11s.xml">
-      <configuration name="TestOpenCart" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="OpenCartTest_openCartTest - 2019.05.19 at 18h 50m 49s.xml">
       <configuration name="OpenCartTest.openCartTest" configurationId="JUnit" />
     </history-entry>
@@ -315,11 +418,21 @@
     <history-entry file="OpenCartTest_openCartTest - 2019.05.19 at 21h 29m 09s.xml">
       <configuration name="OpenCartTest.openCartTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="OpenCartTest_loginTest - 2019.05.22 at 17h 38m 08s.xml">
+      <configuration name="OpenCartTest.loginTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestDemo - 2019.05.22 at 17h 47m 56s.xml">
+      <configuration name="TestDemo" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RegistationCart_FirstTest - 2019.05.22 at 17h 56m 38s.xml">
+      <configuration name="RegistationCart.FirstTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18926175" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19151671" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -329,16 +442,16 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49807197" visible="true" weight="0.32871014" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39975095" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.24929178" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4993573" weight="0.2482663" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50192803" side_tool="true" visible="true" weight="0.32871014" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.26774594" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -353,6 +466,18 @@
     <MESSAGE value="package added" />
     <MESSAGE value="created new page objects" />
     <option name="LAST_COMMIT_MESSAGE" value="created new page objects" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/target/test-classes/yuriikhilchenko/OpenCartTest.class</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -628,6 +753,77 @@
             <element signature="e#655#656#0" expanded="true" />
             <element signature="e#693#694#0" expanded="true" />
             <element signature="e#729#730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/yuriikhilchenko/OpenCartTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#1288#0" expanded="true" />
+            <element signature="method#OpenCartTest#0;class#OpenCartTest#0" expanded="true" />
+            <element signature="method#openCartTest#0;class#OpenCartTest#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/yuriikhilchenko/OpenCartTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/orysiabenko/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <folding>
+            <element signature="e#0#863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/orysiabenko/OpenCartRegistration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#2164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/olishchuk1/OpenCartTest.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/orysiabenko/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/orysiabenko/RegistationCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/orysiabenko/OpenCartRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#confirmPassword#0;class#OpenCartRegistration#0" expanded="true" />
           </folding>
         </state>
       </provider>
