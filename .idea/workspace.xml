@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="8bba7e99-b6ef-4c70-9b77-562b99a750a9" name="Default Changelist" comment="created new page objects">
       <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
@@ -23,6 +24,16 @@
       <change beforePath="$PROJECT_DIR$/target/test-classes/osynyava/OpenCartTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/osynyava/OpenCartTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/yurazahakaylo/RegisterTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/yuriikhilchenko/OpenCartTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/yuriikhilchenko/OpenCartTest.class" afterDir="false" />
+=======
+    <list default="true" id="8bba7e99-b6ef-4c70-9b77-562b99a750a9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/kushnirolesya/TestOpenCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kushnirolesya/TestOpenCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yurazahakaylo/DemoMainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yurazahakaylo/Property.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yurazahakaylo/WebElementReturn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/kushnirolesya/TestOpenCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/kushnirolesya/TestOpenCart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/yurazahakaylo/TestDemo.class" beforeDir="false" />
+>>>>>>> Stashed changes
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,6 +48,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< Updated upstream
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/orysiabenko/OpenCartRegistration.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,11 +57,19 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/kushnirolesya/TestOpenCart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< Updated upstream
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
@@ -114,6 +134,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/kushnirolesya/CartPageOpenCart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -208,7 +234,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -232,6 +257,7 @@
               <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< Updated upstream
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -239,23 +265,35 @@
               <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Stashed changes
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< Updated upstream
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="olishchuk1" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Stashed changes
             </path>
             <path>
               <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+<<<<<<< Updated upstream
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="osynyava" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> Stashed changes
             </path>
             <path>
               <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
@@ -263,12 +301,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+<<<<<<< Updated upstream
               <item name="yuriikhilchenko" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> Stashed changes
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,17 +362,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="OpenCartTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JAVA" />
+=======
+    <configuration name="TestOpenCart.LoginOpenCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenTest" />
+>>>>>>> Stashed changes
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="nastiamazurak.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< Updated upstream
       <option name="PACKAGE_NAME" value="nastiamazurak" />
       <option name="MAIN_CLASS_NAME" value="nastiamazurak.OpenCartTest" />
       <option name="METHOD_NAME" value="loginTest" />
+=======
+      <option name="PACKAGE_NAME" value="kushnirolesya" />
+      <option name="MAIN_CLASS_NAME" value="kushnirolesya.TestOpenCart" />
+      <option name="METHOD_NAME" value="LoginOpenCart" />
+>>>>>>> Stashed changes
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -338,17 +391,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="OpenCartTest.openCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OpenCartTA" />
+=======
+    <configuration name="TestOpenCart.OpenCartAddToCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenTest" />
+>>>>>>> Stashed changes
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="olishchuk1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< Updated upstream
       <option name="PACKAGE_NAME" value="olishchuk1" />
       <option name="MAIN_CLASS_NAME" value="olishchuk1.OpenCartTest" />
       <option name="METHOD_NAME" value="openCartTest" />
+=======
+      <option name="PACKAGE_NAME" value="kushnirolesya" />
+      <option name="MAIN_CLASS_NAME" value="kushnirolesya.TestOpenCart" />
+      <option name="METHOD_NAME" value="OpenCartAddToCart" />
+>>>>>>> Stashed changes
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -356,7 +420,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="RegistationCart.FirstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="TestOpenCart.OpenCartLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+>>>>>>> Stashed changes
       <module name="MavenTest" />
       <extension name="coverage">
         <pattern>
@@ -364,9 +432,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< Updated upstream
       <option name="PACKAGE_NAME" value="orysiabenko" />
       <option name="MAIN_CLASS_NAME" value="orysiabenko.RegistationCart" />
       <option name="METHOD_NAME" value="FirstTest" />
+=======
+      <option name="PACKAGE_NAME" value="kushnirolesya" />
+      <option name="MAIN_CLASS_NAME" value="kushnirolesya.TestOpenCart" />
+      <option name="METHOD_NAME" value="OpenCartLogin" />
+>>>>>>> Stashed changes
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -392,11 +466,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< Updated upstream
         <item itemvalue="TestNG.FirstTest.FirstTEst" />
         <item itemvalue="TestNG.RegistationCart.FirstTest" />
         <item itemvalue="TestNG.TestDemo" />
         <item itemvalue="TestNG.OpenCartTest.loginTest" />
         <item itemvalue="TestNG.OpenCartTest.openCartTest" />
+=======
+        <item itemvalue="TestNG.TestOpenCart" />
+        <item itemvalue="TestNG.TestOpenCart.LoginOpenCart" />
+        <item itemvalue="TestNG.TestOpenCart.RegisterOpenCart" />
+        <item itemvalue="TestNG.TestOpenCart.OpenCartAddToCart" />
+        <item itemvalue="TestNG.TestOpenCart.OpenCartLogin" />
+>>>>>>> Stashed changes
       </list>
     </recent_temporary>
   </component>
@@ -430,6 +512,7 @@
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< Updated upstream
     <history-entry file="OpenCartTest_openCartTest - 2019.05.19 at 18h 50m 49s.xml">
       <configuration name="OpenCartTest.openCartTest" configurationId="JUnit" />
     </history-entry>
@@ -459,6 +542,37 @@
     </history-entry>
     <history-entry file="RegistationCart_FirstTest - 2019.05.22 at 17h 56m 38s.xml">
       <configuration name="RegistationCart.FirstTest" configurationId="TestNG" />
+=======
+    <history-entry file="TestOpenCart - 2019.05.17 at 17h 40m 51s.xml">
+      <configuration name="TestOpenCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestOpenCart - 2019.05.17 at 17h 42m 11s.xml">
+      <configuration name="TestOpenCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestOpenCart - 2019.05.17 at 17h 42m 47s.xml">
+      <configuration name="TestOpenCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestOpenCart - 2019.05.17 at 17h 55m 32s.xml">
+      <configuration name="TestOpenCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestOpenCart - 2019.05.17 at 17h 56m 32s.xml">
+      <configuration name="TestOpenCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestOpenCart - 2019.05.17 at 18h 00m 26s.xml">
+      <configuration name="TestOpenCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestOpenCart_LoginOpenCart - 2019.05.17 at 18h 00m 58s.xml">
+      <configuration name="TestOpenCart.LoginOpenCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestOpenCart - 2019.05.17 at 18h 01m 33s.xml">
+      <configuration name="TestOpenCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestOpenCart_LoginOpenCart - 2019.05.17 at 18h 01m 56s.xml">
+      <configuration name="TestOpenCart.LoginOpenCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestOpenCart - 2019.05.17 at 18h 03m 25s.xml">
+      <configuration name="TestOpenCart" configurationId="TestNG" />
+>>>>>>> Stashed changes
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -467,7 +581,11 @@
   <component name="ToolWindowManager">
     <frame x="-21" y="23" width="1920" height="1130" extended-state="0" />
     <layout>
+<<<<<<< Updated upstream
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16240682" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
+>>>>>>> Stashed changes
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -479,17 +597,29 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< Updated upstream
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7779553" visible="true" weight="0.32851636" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39975095" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+>>>>>>> Stashed changes
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
+<<<<<<< Updated upstream
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4993573" weight="0.2482663" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.22204472" side_tool="true" visible="true" weight="0.32851636" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.26774594" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946752" weight="0.32851636" />
       <window_info anchor="right" id="Database" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.21931261" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
+>>>>>>> Stashed changes
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -624,6 +754,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/olishchuk1/OpenCartRegisterPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1440">
@@ -656,6 +787,11 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/yurazahakaylo/Property.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/yurazahakaylo/DemoMainPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/yurazahakaylo/WebElementReturn.java" />
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/nastiamazurak/DemoMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -804,8 +940,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/orysiabenko/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="120">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+=======
+        <state relative-caret-position="296">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -845,8 +986,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="253">
           <caret line="23" column="101" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="101" />
+=======
+        <state relative-caret-position="125">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -855,11 +1001,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/olishchuk1/OpenCartTest.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="345">
           <caret line="23" column="101" selection-start-line="23" selection-start-column="101" selection-end-line="23" selection-end-column="101" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="272">
+          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
