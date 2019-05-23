@@ -1,5 +1,5 @@
 
-import static org.testng.Assert.assertEquals;
+/*import static org.testng.Assert.assertEquals;
 
 import org.junit.rules.Timeout;
 import org.openqa.selenium.By;
@@ -46,3 +46,4 @@ public class FirstTest {
 
     }
 }
+*/
