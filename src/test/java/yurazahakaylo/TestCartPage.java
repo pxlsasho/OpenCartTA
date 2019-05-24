@@ -17,25 +17,25 @@ public class TestCartPage {
 
         driver = new ChromeDriver();
 
-        CartPage demo = PageFactory.initElements(driver, CartPage.class);
-        demo.open();
+       // CartPage demo = PageFactory.initElements(driver, CartPage.class);
+        //demo.open();
 
     }
     @Test
     public void FirstTest()
     {
-        CartPage demo = PageFactory.initElements(driver, CartPage.class);
+        //CartPage demo = PageFactory.initElements(driver, CartPage.class);
 
-        demo.search();
-        demo.addToCart();
+        //demo.search();
+        //demo.addToCart();
 
-        demo.check();
+        //demo.check();
 
     }
     @AfterTest
     public void afterTest()
     {
-        CartPage demo = PageFactory.initElements(driver, CartPage.class);
+        //CartPage demo = PageFactory.initElements(driver, CartPage.class);
        // demo.close();
     }
 }

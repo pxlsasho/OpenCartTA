@@ -31,12 +31,12 @@ public class FirstTest {
         //Explicit Wait
         driver.get("https://apple.com/");
         WebDriverWait wait = new WebDriverWait(driver,10);
-        WebElement buyLink =
-                wait.until(ExpectedConditions.elementToBeClickable
-                        (By.xpath("//a[contains(@class, 'cta')][2]")));
+        //WebElement buyLink =
+                //wait.until(ExpectedConditions.elementToBeClickable
+                       // (By.xpath("//a[contains(@class, 'cta')][2]")));
 
         //WebElement element = driver.findElement(By.xpath("//a[contains(@class, 'cta')][2]"));
-        buyLink.click();
+       // buyLink.click();
 
 
 

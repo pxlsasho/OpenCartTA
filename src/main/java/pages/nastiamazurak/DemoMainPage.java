@@ -17,7 +17,9 @@ public class DemoMainPage{
     @FindBy(linkText = "Register")
     private WebElement registerLink;
 
+    @FindBy(name = "search")
     private WebElement searchline;
+
     @FindBy(xpath = "/html/body/header/div/div/div[2]/div/span/button")
     private WebElement searchButton;
 

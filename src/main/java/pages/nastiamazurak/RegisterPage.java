@@ -39,6 +39,9 @@ public class RegisterPage {
     @FindBy(xpath = "/html/body/nav/div/div[2]/ul/li[2]/ul/li[5]/a")
     private WebElement logoutlink;
 
+    @FindBy(xpath = "/html/body/div[2]/div/div/h1")
+    private WebElement actualResult;
+
 
 
 
@@ -95,6 +98,10 @@ public class RegisterPage {
     public void logOut() {
         this.myAccountLink.click();
         this.logoutlink.click();
+    }
+    public String ActualResult(){
+       String result =  actualResult.getText();
+        return result;
     }
 
 
