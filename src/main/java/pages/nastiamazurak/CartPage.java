@@ -12,6 +12,14 @@ public class CartPage {
     )
     WebElement addToCartButton;
 
+    @FindBy(xpath = "/html/body/div[2]/div[1]")
+    WebElement successString;
+
+    @FindBy(xpath = "/html/body/div[2]/div[2]/div/h1")
+    WebElement checkResult;
+
+    String result = "Success: You have added MacBook to your shopping cart!";
+
     public CartPage(WebDriver driver) {
         this.driver = driver;
     }
@@ -19,4 +27,8 @@ public class CartPage {
     public void addToCart() {
         this.addToCartButton.click();
     }
+
+    public String actualResult(){return successString.getText();}
+
+    public String Result(){return checkResult.getText();}
 }

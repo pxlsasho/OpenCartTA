@@ -38,7 +38,11 @@ public class LoginPage {
     @FindBy(
             xpath = "/html/body/div[2]/div/div/div/div[2]/div/form/input"
     )
+
     private WebElement loginBtn;
+
+    @FindBy(xpath = "/html/body/div[2]/div/div/h2[1]")
+    private WebElement actualResult;
 
     public void LoginPage() {
         this.myAccountLink.click();
@@ -58,4 +62,6 @@ public class LoginPage {
     public void clicklogin() {
         this.loginBtn.click();
     }
+
+    public String ActualResult(){return actualResult.getText();}
 }
