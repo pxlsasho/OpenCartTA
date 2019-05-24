@@ -1,4 +1,4 @@
-package yurazahakaylo;
+package pages.yurazahakaylo;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -26,7 +26,7 @@ public class RegistrationPage {
     private WebElement firstNameFlat;
 
     @FindBy(id = "input-lastname")
-    private WebElement lastNameFlat;
+    public WebElement lastNameFlat;
 
     @FindBy(id = "input-email")
     private WebElement eMailFlat;
@@ -48,39 +48,39 @@ public class RegistrationPage {
 
     //
 
-    public void useFirstNameFlat() {
+    public void useFirstNameFlat(String firstNameSendKeys) {
         firstNameFlat.click();
-        firstNameFlat.sendKeys("Jastin");
+        firstNameFlat.sendKeys(firstNameSendKeys);
     }
 
 
-    public void useLastNameFlat() {
+    public void useLastNameFlat(String lastNameSendKeys) {
         lastNameFlat.click();
-        lastNameFlat.sendKeys("Vlastelin");
+        lastNameFlat.sendKeys(lastNameSendKeys);
     }
 
 
-    public void useEMailFlat() {
+    public void useEMailFlat(String eMailSendKeys) {
         eMailFlat.click();
-        eMailFlat.sendKeys("mieysemail@gmail.com");
+        eMailFlat.sendKeys(eMailSendKeys);
     }
 
 
-    public void useTelephoneFlat(){
+    public void useTelephoneFlat(String telephoneSendKeys){
         telephoneFlat.click();
-        telephoneFlat.sendKeys("26589426444");
+        telephoneFlat.sendKeys(telephoneSendKeys);
     }
 
 
-    public void usePasswordFlat(){
+    public void usePasswordFlat(String passwordSendKeys){
         passwordFlat.click();
-        passwordFlat.sendKeys("9866");
+        passwordFlat.sendKeys(passwordSendKeys);
     }
 
 
-    public void UsePasswordConfirmFlat(){
+    public void UsePasswordConfirmFlat(String passwordConfirmSendKeys){
         passwordConfirmFlat.click();
-        passwordConfirmFlat.sendKeys("9866");
+        passwordConfirmFlat.sendKeys(passwordConfirmSendKeys);
     }
 
 
@@ -91,12 +91,10 @@ public class RegistrationPage {
 
 
     @FindBy(xpath = "//*[@id=\"account-register\"]/div[1]")
-    private WebElement checker;
+    public WebElement checker;
 
 
 
-    public void check(){
-        boolean b = checker.isDisplayed();
-    }
+
 }
 

@@ -35,47 +35,51 @@ public class OpenCartRegisterPage {
     @FindBy(xpath = "/html/body/div[2]/div/div/div/div[2]/div/form/input")
     private WebElement loginButton;
 
+    @FindBy(xpath = "/html/body/div[2]/div/div/h1")
+    private WebElement sucsesfulReg;
+
+
     public OpenCartRegisterPage(WebDriver driver)
     {
         this.driver = driver;
     }
 
-    public  void inputFirstName(String name)
+    public void inputFirstName(String name)
     {
         firstNameLink.click();
         firstNameLink.clear();
         firstNameLink.sendKeys(name);
     }
 
-    public  void inputSurname(String surname)
+    public void inputSurname(String surname)
     {
         surnameLink.click();
         surnameLink.clear();
         surnameLink.sendKeys(surname);
     }
 
-    public  void inputEmail(String email)
+    public void inputEmail(String email)
     {
         emailLink.click();
         emailLink.clear();
         emailLink.sendKeys(email);
     }
 
-    public  void inputTelephone(String phone)
+    public void inputTelephone(String phone)
     {
         telephoneLink.click();
         telephoneLink.clear();
         telephoneLink.sendKeys(phone);
     }
 
-    public  void inputPassword(String password)
+    public void inputPassword(String password)
     {
         passwordLink.click();
         passwordLink.clear();
         passwordLink.sendKeys(password);
     }
 
-    public  void inputConfirmPassword(String confirmPassword)
+    public void inputConfirmPassword(String confirmPassword)
     {
 
         confirmPasswordLink.click();
@@ -87,7 +91,7 @@ public class OpenCartRegisterPage {
 
     public void ClickOnLogin(){loginButton.click();}
 
-    public  void ClickOnPrivacyPolicyAgree(){agreePrivacyPolicyLink.click();}
+    public void ClickOnPrivacyPolicyAgree(){agreePrivacyPolicyLink.click();}
 
     public void RegisterAs(String firstname, String surname,
                            String email, String telephone,
