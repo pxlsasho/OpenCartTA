@@ -1,8 +1,10 @@
 package pages.kushnirolesya;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
 
 public class RegisterPageOpenCart {
     private WebDriver driver;
@@ -31,10 +33,21 @@ public class RegisterPageOpenCart {
     @FindBy(xpath = "/html/body/div[2]/div/div/form/div/div/input[2]")
     private WebElement continueButton;
 
+    @FindBy(xpath = "/html/body/div[2]/div/div/form/fieldset[1]/div[3]/div/div")
+    private WebElement firstNameNull;
+
+    @FindBy(xpath = "//*[@id=\"content\"]")
+    private WebElement SuccessRegister;
+
 
     public RegisterPageOpenCart(WebDriver driver)
     {
         this.driver = driver;
+    }
+
+    public boolean CheckValidRegistration()
+    {
+        return SuccessRegister.getText().contains("Your Account Has Been Created!");
     }
 
     public  void enterFirstName(String name)

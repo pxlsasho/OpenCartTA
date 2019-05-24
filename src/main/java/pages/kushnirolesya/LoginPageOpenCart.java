@@ -13,6 +13,9 @@ public class LoginPageOpenCart {
     @FindBy(name = "email")
     private WebElement emailLink;
 
+    @FindBy(xpath = "//*[@id=\"content\"]")
+    public WebElement successLogin;
+
     @FindBy(name = "password")
     private WebElement passwordLink;
 
@@ -22,6 +25,11 @@ public class LoginPageOpenCart {
     }
 
     public void ClickOnLogin(){loginButton.click();}
+
+    public boolean CheckValidLogin()
+    {
+        return successLogin.getText().contains("My Account");
+    }
 
     public  void enterEmail(String email)
     {

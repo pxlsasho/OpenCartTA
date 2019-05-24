@@ -21,11 +21,19 @@ public class MainPageOpenCart {
     @FindBy(linkText = "Logout")
     private WebElement logoutLink;
 
+    @FindBy(linkText = "Your Store")
+    private WebElement successOpening;
+
     public MainPageOpenCart(WebDriver driver) {this.driver = driver; }
 
     public void open()
     {
         driver.get(BASE_URL);
+    }
+
+    public boolean CheckValidMainPageOpening()
+    {
+        return successOpening.getText().contains("Your Store");
     }
 
     public void openRegistration()
@@ -48,5 +56,4 @@ public class MainPageOpenCart {
         accountLink.click();
         logoutLink.click();
     }
-    //jjj
 }
