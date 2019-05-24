@@ -1,4 +1,4 @@
-package yurazahakaylo;
+package pages.yurazahakaylo;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -28,22 +28,22 @@ public class LoginPage {
     @FindBy(xpath = "//*[@id=\"content\"]/div/div[2]/div/form/input")
     public  WebElement loginBtn;
 
-    @FindBy(xpath = "//*[@id=\"content\"]")
+    @FindBy(id = "content")
     public WebElement checker;
 
-    public void useEmailFlat(){
+
+
+    public void useEmailFlat(String emailSendKeys){
         email.click();
-        email.sendKeys("mieyemail@gmail.com");
+        email.sendKeys(emailSendKeys);
     }
-    public void usePasswordFlat(){
+    public void usePasswordFlat(String passwordSendKeys){
         password.click();
-        password.sendKeys("9866");
+        password.sendKeys(passwordSendKeys);
     }
     public void clickOnLoginBtn(){
         loginBtn.click();
     }
-    public void check(){
-        boolean b = checker.isDisplayed();
-    }
+
 
 }
