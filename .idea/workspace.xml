@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bba7e99-b6ef-4c70-9b77-562b99a750a9" name="Default Changelist" comment="RegestrationPage and MainPage.">
+    <list default="true" id="8bba7e99-b6ef-4c70-9b77-562b99a750a9" name="Default Changelist" comment="created new page objects">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/olishchuk1/OpenCartRegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/olishchuk1/OpenCartRegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/olishchuk1/OpenCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/olishchuk1/OpenCartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/olishchuk1/OpenCartRegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/olishchuk1/OpenCartRegisterPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/yurazahakaylo/Register.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nastiamazurak/OpenCartTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/olishchuk1/OpenCartTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/yurazahakaylo/RegisterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/yuriikhilchenko/OpenCartTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,28 +27,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/adomanych/OpenCartTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/olishchuk1/OpenCartCartPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/olishchuk1/OpenCartTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="334">
+              <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,19 +39,103 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/adomanych/OpenCartMainPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cstashkevych/OpenCartTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            <state relative-caret-position="68">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/adomanych/OpenCartRegistrationPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ovoroniak/OpenCartTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-34">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/yuriikhilchenko/OpenCartTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/osynyava/OpenCartTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/kushnirolesya/TestOpenCart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/apasternak/OpenCartTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/olishchuk1/OpenCartMainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="70" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#729#730#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/olishchuk1/OpenCartRegisterPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="7" column="72" lean-forward="true" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1175#1176#0" expanded="true" />
+                <element signature="e#1211#1212#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/RozetkaMainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="34" column="29" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -90,15 +165,8 @@
         <option value="$PROJECT_DIR$/src/main/java/pages/mafinka17/RegisterPageOC.java" />
         <option value="$PROJECT_DIR$/src/test/java/mafinka17/TestOpenCart.java" />
         <option value="$PROJECT_DIR$/src/test/java/kushnirolesya/TestOpenCart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/olishchuk1/OpenCartRegisterPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/olishchuk1/OpenCartTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FirstTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/adomanych/OpenCartMainPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/adomanych/OpenCartRegistrationPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/OpenCartTest.java" />
-        <option value="$PROJECT_DIR$/src/test/adomanych/OpenCartTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/adomanych/OpenCartMainPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/adomanych/OpenCartRegistrationPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/adomanych/OpenCartTest.java" />
       </list>
     </option>
   </component>
@@ -109,18 +177,40 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MavenTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MavenTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MavenTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="315" />
     <option name="y" value="-15" />
     <option name="width" value="2100" />
     <option name="height" value="1320" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,51 +251,84 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="adomanych" type="462c0819:PsiDirectoryNode" />
+              <item name="olishchuk1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cstashkevych" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kushnirolesya" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="olishchuk1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="osynyava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ovoroniak" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="olishchuk1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="adomanych" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCartTA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCartTA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="olishchuk1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,11 +337,9 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\OpenCartTA\src\test\java" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\FOR_TESTING\IdeaProjects\OpenCartTA\src\main\java\pages\apasternak" />
       <recent name="E:\OpenCartTA\src\main\java\pages\olishchuk1" />
@@ -241,12 +362,12 @@
       <module name="OpenCartTA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adomanych.*" />
+          <option name="PATTERN" value="olishchuk1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="adomanych" />
-      <option name="MAIN_CLASS_NAME" value="adomanych.OpenCartTest" />
+      <option name="PACKAGE_NAME" value="olishchuk1" />
+      <option name="MAIN_CLASS_NAME" value="olishchuk1.OpenCartTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -258,14 +379,31 @@
       <module name="OpenCartTA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adomanych.*" />
+          <option name="PATTERN" value="olishchuk1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="adomanych" />
-      <option name="MAIN_CLASS_NAME" value="adomanych.OpenCartTest" />
+      <option name="PACKAGE_NAME" value="olishchuk1" />
+      <option name="MAIN_CLASS_NAME" value="olishchuk1.OpenCartTest" />
       <option name="METHOD_NAME" value="openCartTest" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOpenCart (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OpenCartTA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kushnirolesya.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kushnirolesya" />
+      <option name="MAIN_CLASS_NAME" value="kushnirolesya.TestOpenCart" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -307,31 +445,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOpenCart.OpenCart" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MavenTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mafinka17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mafinka17" />
-      <option name="MAIN_CLASS_NAME" value="mafinka17.TestOpenCart" />
-      <option name="METHOD_NAME" value="OpenCart" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.OpenCartTest" />
+        <item itemvalue="TestNG.TestOpenCart (1)" />
         <item itemvalue="TestNG.OpenCartTest.openCartTest" />
         <item itemvalue="TestNG.TestOpenCart" />
         <item itemvalue="TestNG.TestOpenCart.LoginOpenCart" />
-        <item itemvalue="TestNG.TestOpenCart.OpenCart" />
       </list>
     </recent_temporary>
   </component>
@@ -346,54 +466,40 @@
       <option name="presentableId" value="Default" />
       <updated>1557899580933</updated>
     </task>
-    <task id="LOCAL-00001" summary="RegestrationPage and MainPage.">
-      <created>1558641060333</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1558641060333</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OpenCartTest - 2019.05.23 at 21h 03m 03s.xml">
-      <configuration name="OpenCartTest" configurationId="TestNG" />
+    <history-entry file="TestOpenCart_OpenCart - 2019.05.21 at 11h 19m 30s.xml">
+      <configuration name="TestOpenCart.OpenCart" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenCartTest - 2019.05.23 at 21h 04m 43s.xml">
-      <configuration name="OpenCartTest" configurationId="TestNG" />
+    <history-entry file="TestOpenCart_OpenCart - 2019.05.21 at 11h 21m 51s.xml">
+      <configuration name="TestOpenCart.OpenCart" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenCartTest - 2019.05.23 at 21h 06m 38s.xml">
-      <configuration name="OpenCartTest" configurationId="TestNG" />
+    <history-entry file="TestOpenCart_OpenCart - 2019.05.21 at 11h 31m 41s.xml">
+      <configuration name="TestOpenCart.OpenCart" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenCartTest - 2019.05.23 at 21h 08m 14s.xml">
-      <configuration name="OpenCartTest" configurationId="TestNG" />
+    <history-entry file="TestOpenCart_LoginOpenCart - 2019.05.23 at 16h 15m 51s.xml">
+      <configuration name="TestOpenCart.LoginOpenCart" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenCartTest - 2019.05.23 at 21h 09m 04s.xml">
-      <configuration name="OpenCartTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenCartTest - 2019.05.23 at 22h 36m 35s.xml">
-      <configuration name="OpenCartTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenCartTest - 2019.05.23 at 22h 42m 40s.xml">
-      <configuration name="OpenCartTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenCartTest - 2019.05.24 at 13h 16m 04s.xml">
-      <configuration name="OpenCartTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenCartTest - 2019.05.24 at 13h 16m 55s.xml">
-      <configuration name="OpenCartTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenCartTest - 2019.05.24 at 13h 29m 03s.xml">
-      <configuration name="OpenCartTest" configurationId="TestNG" />
+    <history-entry file="TestOpenCart - 2019.05.23 at 16h 16m 55s.xml">
+      <configuration name="TestOpenCart" configurationId="TestNG" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2672065" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49814814" visible="true" weight="0.25225767" />
+      <window_info id="Structure" order="1" sideWeight="0.50185186" side_tool="true" weight="0.25225767" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -402,16 +508,16 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="CheckStyle" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49909693" weight="0.32876712" />
+      <window_info anchor="bottom" id="CheckStyle" order="7" sideWeight="0.49909693" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49909693" weight="0.3275218" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50090307" side_tool="true" visible="true" weight="0.3275218" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49969897" weight="0.32876712" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49909693" visible="true" weight="0.3275218" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -450,10 +556,6 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="RegestrationPage and MainPage." />
-    <option name="LAST_COMMIT_MESSAGE" value="RegestrationPage and MainPage." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -551,72 +653,67 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/mafinka17/CartPageOC.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/mafinka17/RegisterPageOC.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/mafinka17/TestOpenCart.java" />
-    <entry file="file://$PROJECT_DIR$/../MavenTest/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8466">
+          <caret line="516" column="10" selection-start-line="516" selection-start-column="10" selection-end-line="516" selection-end-column="10" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/kushnirolesya/TestOpenCart.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/RozetkaTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/olishchuk1/OpenCartRegisterPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="29" column="45" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/olishchuk1/OpenCartMainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/RozetkaMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
+        <state relative-caret-position="459">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/osynyava/OpenCartTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/olishchuk1/OpenCartMainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="70" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/olishchuk1/OpenCartRegisterPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1211#1212#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/kushnirolesya/CartPageOpenCart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="679" column="10" selection-start-line="679" selection-start-column="10" selection-end-line="679" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/adomanych/OpenCartTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adomanych/OpenCartMainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adomanych/OpenCartRegistrationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1030">
-          <caret line="7" column="65" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/olishchuk1/OpenCartTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="289">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -625,29 +722,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/olishchuk1/OpenCartCartPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="680">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/adomanych/OpenCartMainPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/cstashkevych/OpenCartTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/adomanych/OpenCartRegistrationPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="72" lean-forward="true" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+        <state relative-caret-position="68">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/adomanych/OpenCartTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ovoroniak/OpenCartTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        <state relative-caret-position="-34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kushnirolesya/TestOpenCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/apasternak/OpenCartTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/yuriikhilchenko/OpenCartTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/olishchuk1/OpenCartTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

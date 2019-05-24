@@ -1,11 +1,14 @@
 package yurazahakaylo;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import pages.yurazahakaylo.RegistrationPage;
 
 public class TestRegistrationPage {
     private WebDriver driver;
@@ -26,16 +29,18 @@ public class TestRegistrationPage {
     {
        RegistrationPage demo = PageFactory.initElements(driver, RegistrationPage.class);
 
-       demo.useFirstNameFlat();
-       demo.useLastNameFlat();
-       demo.useEMailFlat();
-       demo.useTelephoneFlat();
-       demo.usePasswordFlat();
-       demo.UsePasswordConfirmFlat();
+       demo.useFirstNameFlat("Igor");
+       demo.useLastNameFlat("Pypok");
+       demo.useEMailFlat("kolega@zelenskiy.ua");
+       demo.useTelephoneFlat("097851685");
+       demo.usePasswordFlat("9866");
+       demo.UsePasswordConfirmFlat("9866");
        demo.clickToAgreePrivacyPolicy();
        demo.clickToContinue();
 
-       demo.check();
+
+
+       Assert.assertEquals(demo.checker.getText(), "Warning: E-Mail Address is already registered!");
 
     }
     @AfterTest

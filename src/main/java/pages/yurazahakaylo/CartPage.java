@@ -1,8 +1,9 @@
-package yurazahakaylo;
+package pages.yurazahakaylo;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
 
 public class CartPage {
     private static final String BASE_URL = "https://demo.opencart.com";
@@ -33,16 +34,14 @@ public class CartPage {
 
     public void addToCart(){addToCartBtn.click();}
 
-    public void search()
+    public void search(String searcherItemSendKeys)
     {
         searchFlat.click();
-        searchFlat.sendKeys("iphone");
+        searchFlat.sendKeys(searcherItemSendKeys);
         searchBtn.click();
     }
 
-    public void check(){
-        boolean b = checker.isDisplayed();
-    }
+
 
 
 }
