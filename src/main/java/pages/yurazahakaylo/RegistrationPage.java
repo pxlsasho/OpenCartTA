@@ -90,8 +90,13 @@ public class RegistrationPage {
 
 
 
-    @FindBy(xpath = "//*[@id=\"account-register\"]/div[1]")
-    public WebElement checker;
+
+
+    @FindBy(id = "content")
+    public WebElement newUserRegistratedChecker;
+
+    @FindBy(id = "content")
+    public WebElement notTrueAmountForPasswordChecker;
 
 
 

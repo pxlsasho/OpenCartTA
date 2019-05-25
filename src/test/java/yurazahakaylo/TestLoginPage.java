@@ -26,7 +26,7 @@ public class TestLoginPage {
 
     }
     @Test
-    public void FirstTest()
+    public void LoginTest()
     {
         LoginPage demo = PageFactory.initElements(driver, LoginPage.class);
 
@@ -35,7 +35,7 @@ public class TestLoginPage {
         demo.clickOnLoginBtn();
 
        // Assert.assertEquals(demo.checker.getText(), "My Account");
-        Assert.assertTrue(demo.checker.getText().contains("My Account"));
+        Assert.assertTrue(demo.loginMessagechecker.getText().contains("My Account"));
 
 
     }
