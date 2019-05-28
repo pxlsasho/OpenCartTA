@@ -11,11 +11,16 @@ import pages.nastiamazurak.DemoMainPage;
 import pages.nastiamazurak.LoginPage;
 import pages.nastiamazurak.RegisterPage;
 
+import java.util.Random;
+
 public class OpenCartTest
 {
     String driverPath =  "/Users/nmazurak/downloads/chromedriver";
     private WebDriver driver;
-    String email = "test6632525@test.com";
+
+    Random rand = new Random();
+    int n = rand.nextInt();
+    String email = n + "test663@test.com";
     String pass = "12345";
 
     @BeforeTest
@@ -26,7 +31,7 @@ public class OpenCartTest
     }
 
     @Test
-    public void tesOpenCart () {
+    public void RegistrationAndLogout () {
 
 
        // System.setProperty("webdriver.chrome.driver", driverPath);
@@ -51,9 +56,10 @@ public class OpenCartTest
         rPage.policyCheck();
         rPage.pressContinue();
         rPage.logOut();
-        String expectedResult = "Account Logout";
+        String logOutCheck = "Account Logout";
+        
 
-        Assert.assertEquals(rPage.ActualResult(),expectedResult );
+        Assert.assertEquals(rPage.ActualResult(),logOutCheck );
 
 
     }
@@ -79,14 +85,18 @@ public class OpenCartTest
 
     @Test
     public void addToCartTest() {
-       // System.setProperty("webdriver.chrome.driver", "/Users/nmazurak/downloads/chromedriver");
-       // WebDriver driver = new ChromeDriver();
+
         String search = "macbook";
         DemoMainPage MainPage = (DemoMainPage)PageFactory.initElements(driver, DemoMainPage.class);
         MainPage.open();
         MainPage.Search(search);
         CartPage cPage = (CartPage)PageFactory.initElements(driver, CartPage.class);
         cPage.addToCart();
+        cPage.cartTotalClick();
+
+        //String expectedItem = "x 1";
+
+        //Assert.assertEquals(expectedItem, cPage.Result());
 
         //String expectedResult = "Success: You have added MacBook to your shopping cart!";
 

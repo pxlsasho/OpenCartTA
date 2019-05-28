@@ -10,7 +10,6 @@
         <module name="OpenCartTA1" />
         <module name="MavenTest" />
         <module name="JAVA" />
-        <module name="OpenCartTA" />
       </profile>
     </annotationProcessing>
   </component>
