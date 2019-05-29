@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
@@ -14,6 +13,10 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pages.yurazahakaylo.CartPage;
 import org.testng.Assert;
+import java.util.concurrent.locks.Condition;
+import javax.xml.datatype.Duration;
+import java.util.concurrent.TimeUnit;
+//import static org.awaitility.Awaitility.*;
 
 public class TestCartPage {
     private WebDriver driver;
@@ -36,24 +39,17 @@ public class TestCartPage {
         demo.search("iphone");
         demo.addToCart();
 
-       // Thread.sleep(3000);
-
-        /*
-        //PLEASE HELP ME
         WebDriverWait wait = new WebDriverWait(driver,30);
-        WebElement lupa = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"product-search\"]/div[1]")));
         wait.until(ExpectedConditions.visibilityOf(demo.checker));
 
 
-
-        Assert.assertTrue(lupa.getText().contains("Success: You have added "));
-        */
-
+        Assert.assertTrue(demo.checker.getText().contains
+                ("Success: You have added "));
     }
     @AfterTest
     public void afterTest()
     {
         CartPage demo = PageFactory.initElements(driver, CartPage.class);
-       //demo.close();
+        demo.close();
     }
 }

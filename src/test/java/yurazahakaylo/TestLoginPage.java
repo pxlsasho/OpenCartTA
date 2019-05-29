@@ -34,8 +34,9 @@ public class TestLoginPage {
         demo.usePasswordFlat("9866");
         demo.clickOnLoginBtn();
 
-       // Assert.assertEquals(demo.checker.getText(), "My Account");
-        Assert.assertTrue(demo.loginMessagechecker.getText().contains("My Account"));
+
+        Assert.assertTrue(demo.loginMessagechecker.getText().contains
+                ("My Account"));
 
 
     }

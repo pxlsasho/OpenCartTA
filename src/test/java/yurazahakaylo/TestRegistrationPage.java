@@ -14,7 +14,7 @@ public class TestRegistrationPage {
     Random random = new Random();
 
     @BeforeMethod
-    public void beforeTest()
+    public void beforeMethod()
     {
         System.setProperty("webdriver.chrome.driver" ,"C:/Users/Zaga/IdeaProjects/ChromeDriver/chromedriver.exe");
 
@@ -22,7 +22,6 @@ public class TestRegistrationPage {
 
         RegistrationPage demo = PageFactory.initElements(driver, RegistrationPage.class);
         demo.open();
-
     }
     @Test(priority = 1)
     public void RegistrationNewUserTest()
@@ -40,7 +39,6 @@ public class TestRegistrationPage {
 
         Assert.assertTrue(demo.newUserRegistratedChecker.getText().contains
                 ("Your Account Has Been Created!"));
-
 
     }
 
@@ -86,7 +84,7 @@ public class TestRegistrationPage {
     }
 
     @AfterMethod
-    public void afterTest()
+    public void afterMethod()
     {
         RegistrationPage demo = PageFactory.initElements(driver, RegistrationPage.class);
 
