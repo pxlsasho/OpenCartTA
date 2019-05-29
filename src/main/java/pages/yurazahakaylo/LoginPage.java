@@ -29,7 +29,7 @@ public class LoginPage {
     public  WebElement loginBtn;
 
     @FindBy(id = "content")
-    public WebElement checker;
+    public WebElement loginMessagechecker;
 
 
 

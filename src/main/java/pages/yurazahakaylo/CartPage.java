@@ -29,7 +29,7 @@ public class CartPage {
     @FindBy(xpath = "//*[@id=\"search\"]/span/button")
     public WebElement searchBtn;
 
-    @FindBy(xpath =  "//*[@id=\"product-search\"]/div[1]")
+    @FindBy(css ="#product-search > div.alert.alert-success.alert-dismissible")
     public WebElement checker;
 
     public void addToCart(){addToCartBtn.click();}

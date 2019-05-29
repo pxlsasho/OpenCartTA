@@ -15,8 +15,12 @@ public class CartPage {
     @FindBy(xpath = "/html/body/div[2]/div[1]")
     WebElement successString;
 
-    @FindBy(xpath = "/html/body/div[2]/div[2]/div/h1")
-    WebElement checkResult;
+    @FindBy(xpath = "/html/body/header/div/div/div[3]/div/ul/li[1]/table/tbody/tr/td[3]")
+    WebElement checkCart;
+
+    @FindBy(xpath = "/html/body/header/div/div/div[3]/div/button")
+    WebElement cartTotalButton;
+
 
     String result = "Success: You have added MacBook to your shopping cart!";
 
@@ -30,5 +34,7 @@ public class CartPage {
 
     public String actualResult(){return successString.getText();}
 
-    public String Result(){return checkResult.getText();}
+    public void cartTotalClick(){this.cartTotalButton.click();}
+
+    public String Result(){return checkCart.getText();}
 }
