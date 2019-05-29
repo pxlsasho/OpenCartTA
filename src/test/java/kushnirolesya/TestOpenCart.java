@@ -1,8 +1,15 @@
 package kushnirolesya;
 
+import org.apache.tools.ant.taskdefs.condition.IsTrue;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -10,15 +17,16 @@ import pages.kushnirolesya.CartPageOpenCart;
 import pages.kushnirolesya.LoginPageOpenCart;
 import pages.kushnirolesya.MainPageOpenCart;
 import pages.kushnirolesya.RegisterPageOpenCart;
-
+import sun.font.TrueTypeFont;
 import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
 public class TestOpenCart {
     String driverPath = "C:\\Users\\Home\\Downloads\\chromedriver_win32\\chromedriver.exe";
     public WebDriver driver;
     String email = BuildRandomEmail() + "@gmail.com";
 
-    public String BuildRandomEmail(){
+    public String BuildRandomEmail() {
         String SaltCHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
         StringBuilder salt = new StringBuilder();
         Random rnd = new Random();
@@ -29,6 +37,7 @@ public class TestOpenCart {
         String saltStr = salt.toString();
         return saltStr;
     }
+
 
     @BeforeTest
     public void launchBrowser()
@@ -84,8 +93,13 @@ public class TestOpenCart {
         cartPage.searchItem("iMac");
         cartPage.AddToCart();
 
-        //Assert.assertTrue(cartPage.CheckValidCartAdd());
+        //Explicit Wait
+       WebDriverWait wait = new WebDriverWait(driver,10);
+       wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/div[1]/button")));
+
+       Assert.assertTrue(cartPage.CheckValidCartAdd());
     }
+
     /*@AfterTest
     public void OpenCartClose()
     {

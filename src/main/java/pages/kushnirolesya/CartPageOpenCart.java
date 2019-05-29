@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class CartPageOpenCart {
     private WebDriver driver;
@@ -17,7 +19,7 @@ public class CartPageOpenCart {
     @FindBy(xpath = "/html/body/div[2]/div/div/div[3]/div/div/div[2]/div[2]/button[1]/i")
     private WebElement addToCartLink;
 
-    @FindBy(xpath = "//html/body/div[2]/div[1]")
+    @FindBy(xpath = "/html/body/div[2]/div[1]/button")
     private WebElement successAdding;
 
     public CartPageOpenCart(WebDriver driver){this.driver = driver;}
@@ -29,11 +31,11 @@ public class CartPageOpenCart {
         addToCartLink.click();
     }
 
-    /*public boolean CheckValidCartAdd()
+    public boolean CheckValidCartAdd()
     {
-        return successAdding.getText().contains("Success: You have added iMac to your shopping cart!");
+        return successAdding.isEnabled();
     }
-    */
+
 
     public void searchItem(String item)
     {
